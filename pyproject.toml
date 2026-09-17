@@ -1,0 +1,19 @@
+[project]
+name = "sentinelchain-ai"
+version = "1.0.0"
+description = "GenAI Platform for Automated Content Transformation with Blockchain & Cybersecurity Theme"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "streamlit>=1.35.0",
+    "google-genai>=2.0.0",
+    "cryptography>=42.0.0",
+    "pandas>=2.2.0",
+    "plotly>=5.22.0",
+    "pydantic>=2.7.0",
+    "python-dotenv>=1.0.1",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
